@@ -6,6 +6,12 @@
         <option value="$PROJECT_DIR$/01-jt/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/01-jt/jt-portal/jt-demos/pom.xml" />
+        <option value="$PROJECT_DIR$/01-jt/jt-portal/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
