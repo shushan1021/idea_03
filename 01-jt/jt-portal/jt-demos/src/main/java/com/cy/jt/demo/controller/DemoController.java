@@ -4,10 +4,13 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 import java.util.Map;
+import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
 @RequestMapping("/demo/")
 public class DemoController {
+
+    private AtomicLong counter = new AtomicLong(1);
     @PostMapping
     public String doCreate(@RequestBody Map<String,Object> map){
         return map.toString() + " is created";
@@ -15,7 +18,9 @@ public class DemoController {
 
     @GetMapping("{id}")
     public String doFindByID(@PathVariable Integer id){
-        return "find result by " + id;
+        String tname = Thread.currentThread().getName();
+        System.out.println(counter.getAndIncrement());
+        return tname + " find result by " + id;
     }
 
     @DeleteMapping("{id}")
