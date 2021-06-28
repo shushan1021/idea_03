@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-jt/01-jt.iml" filepath="$PROJECT_DIR$/01-jt/01-jt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-jt-sca/03-jt-sca.iml" filepath="$PROJECT_DIR$/03-jt-sca/03-jt-sca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-jt-sca/consumer/consumer.iml" filepath="$PROJECT_DIR$/03-jt-sca/consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-jt/jt-common/jt-common.iml" filepath="$PROJECT_DIR$/01-jt/jt-common/jt-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-jt/jt-common/jt-common-basic/jt-common-basic.iml" filepath="$PROJECT_DIR$/01-jt/jt-common/jt-common-basic/jt-common-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-jt/jt-portal/jt-demos/jt-demos.iml" filepath="$PROJECT_DIR$/01-jt/jt-portal/jt-demos/jt-demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-jt/jt-gateway/jt-gateway.iml" filepath="$PROJECT_DIR$/01-jt/jt-gateway/jt-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-jt/jt-portal/jt-member/jt-member.iml" filepath="$PROJECT_DIR$/01-jt/jt-portal/jt-member/jt-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-jt/jt-portal/jt-portal.iml" filepath="$PROJECT_DIR$/01-jt/jt-portal/jt-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-jt-sca/provider/provider.iml" filepath="$PROJECT_DIR$/03-jt-sca/provider/provider.iml" />
+    </modules>
+  </component>
+</project>

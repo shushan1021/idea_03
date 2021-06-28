@@ -6,16 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jt-gateway" />
+        <module name="jt-common-basic" />
+        <module name="jt-member" />
+        <module name="provider" />
+        <module name="consumer" />
+        <module name="jt-demos" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01-jt" target="8" />
+      <module name="03-jt-sca" target="8" />
+      <module name="consumer" target="8" />
       <module name="jt-common" target="8" />
       <module name="jt-common-basic" target="8" />
       <module name="jt-demos" target="8" />
       <module name="jt-gateway" target="8" />
       <module name="jt-member" target="8" />
       <module name="jt-portal" target="8" />
+      <module name="provider" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer" options="" />
+      <module name="provider" options="" />
+    </option>
   </component>
 </project>

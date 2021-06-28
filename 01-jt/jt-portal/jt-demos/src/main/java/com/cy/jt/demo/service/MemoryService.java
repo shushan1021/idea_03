@@ -1,5 +1,6 @@
 package com.cy.jt.demo.service;
 
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -8,7 +9,9 @@ import java.util.List;
 import java.util.Map;
 
 @Service
+
 public class MemoryService {
+    @Cacheable("MemoryCache")
     public List<Map<String,Object>> list(){
         System.out.println("Get Data From DataBase");
         Map<String,Object> map = new HashMap<>();
