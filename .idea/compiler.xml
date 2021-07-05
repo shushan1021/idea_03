@@ -2,28 +2,40 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jt-gateway" />
-        <module name="jt-common-basic" />
+        <module name="jt-system" />
         <module name="jt-member" />
+        <module name="jt-portals" />
         <module name="provider" />
-        <module name="consumer" />
         <module name="jt-demos" />
+        <module name="jt-common-basics" />
+        <module name="jt-gateway" />
+        <module name="jt-common-tools" />
+        <module name="jt-common-basic" />
+        <module name="consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01-jt" target="8" />
+      <module name="02-jt-admin" target="8" />
       <module name="03-jt-sca" target="8" />
       <module name="consumer" target="8" />
       <module name="jt-common" target="8" />
       <module name="jt-common-basic" target="8" />
+      <module name="jt-common-basics" target="8" />
+      <module name="jt-common-tools" target="8" />
+      <module name="jt-commons" target="8" />
       <module name="jt-demos" target="8" />
       <module name="jt-gateway" target="8" />
       <module name="jt-member" target="8" />
+      <module name="jt-modules" target="8" />
       <module name="jt-portal" target="8" />
+      <module name="jt-portals" target="8" />
+      <module name="jt-system" target="8" />
       <module name="provider" target="8" />
     </bytecodeTargetLevel>
   </component>

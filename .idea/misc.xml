@@ -5,7 +5,14 @@
       <list>
         <option value="$PROJECT_DIR$/01-jt/pom.xml" />
         <option value="$PROJECT_DIR$/03-jt-sca/pom.xml" />
+        <option value="$PROJECT_DIR$/02-jt-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/02-jt-admin/jt-modules/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/02-jt-admin/jt-system/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />

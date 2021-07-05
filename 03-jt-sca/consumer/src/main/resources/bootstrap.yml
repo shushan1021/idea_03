@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+      config:
+        server-addr: localhost:8848
+        group: 51_GROUP
+        file-extension: yml
+        namespace: 3c6cd406-eb12-4895-a6f1-8719fb810d55
+        shared-configs[0]:
+          data-id: app-dev.yml
+          group: DEFAULT_GROUP
+          refresh: true

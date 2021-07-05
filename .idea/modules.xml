@@ -3,14 +3,21 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01-jt/01-jt.iml" filepath="$PROJECT_DIR$/01-jt/01-jt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-jt-admin/02-jt-admin.iml" filepath="$PROJECT_DIR$/02-jt-admin/02-jt-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-jt-sca/03-jt-sca.iml" filepath="$PROJECT_DIR$/03-jt-sca/03-jt-sca.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-jt-sca/consumer/consumer.iml" filepath="$PROJECT_DIR$/03-jt-sca/consumer/consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-jt/jt-common/jt-common.iml" filepath="$PROJECT_DIR$/01-jt/jt-common/jt-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-jt/jt-common/jt-common-basic/jt-common-basic.iml" filepath="$PROJECT_DIR$/01-jt/jt-common/jt-common-basic/jt-common-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-jt-admin/jt-commons/jt-common-basics/jt-common-basics.iml" filepath="$PROJECT_DIR$/02-jt-admin/jt-commons/jt-common-basics/jt-common-basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-jt-admin/jt-commons/jt-common-tools/jt-common-tools.iml" filepath="$PROJECT_DIR$/02-jt-admin/jt-commons/jt-common-tools/jt-common-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-jt-admin/jt-commons/jt-commons.iml" filepath="$PROJECT_DIR$/02-jt-admin/jt-commons/jt-commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-jt/jt-portal/jt-demos/jt-demos.iml" filepath="$PROJECT_DIR$/01-jt/jt-portal/jt-demos/jt-demos.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-jt/jt-gateway/jt-gateway.iml" filepath="$PROJECT_DIR$/01-jt/jt-gateway/jt-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-jt/jt-portal/jt-member/jt-member.iml" filepath="$PROJECT_DIR$/01-jt/jt-portal/jt-member/jt-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-jt-admin/jt-modules/jt-modules.iml" filepath="$PROJECT_DIR$/02-jt-admin/jt-modules/jt-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-jt/jt-portal/jt-portal.iml" filepath="$PROJECT_DIR$/01-jt/jt-portal/jt-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-jt-admin/jt-modules/jt-portals/jt-portals.iml" filepath="$PROJECT_DIR$/02-jt-admin/jt-modules/jt-portals/jt-portals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-jt-admin/jt-modules/jt-system/jt-system.iml" filepath="$PROJECT_DIR$/02-jt-admin/jt-modules/jt-system/jt-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-jt-sca/provider/provider.iml" filepath="$PROJECT_DIR$/03-jt-sca/provider/provider.iml" />
     </modules>
   </component>
